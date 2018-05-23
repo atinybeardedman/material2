@@ -17,7 +17,7 @@ using the `matBadgeOverlap` tag. Typically, you want the badge to overlap an ico
 a text phrase. By default it will overlap.
 
 ```html
-<h1 matBadge="11" matBadgeOverlap="false">
+<h1 matBadge="11" [matBadgeOverlap]="false">
   Email
 </h1>
 ```
